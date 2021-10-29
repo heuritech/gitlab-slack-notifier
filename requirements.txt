@@ -1,0 +1,4 @@
+Flask>=1.1.1
+requests==2.22.*
+slackclient>=2.9.3, < 3
+# xlsxwriter==1.2.* # legacy
