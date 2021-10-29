@@ -4,7 +4,8 @@ import logging
 from flask import Flask, Response, jsonify, request
 from werkzeug.exceptions import Forbidden
 
-from gitlabnotifier.constants import (DEV_CHANEL, FLASK_ENV, GLOBAL_CHANEL, X_GITLAB_TOKEN)
+from gitlabnotifier.constants import (DEV_CHANEL, FLASK_ENV, GLOBAL_CHANEL,
+                                      X_GITLAB_TOKEN)
 from gitlabnotifier.process_gitlab_notif import \
     get_messages_and_emails_from_event
 from gitlabnotifier.slack_api import EMAIL_TO_SLACK_NAME, slack_message

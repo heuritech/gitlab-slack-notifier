@@ -3,12 +3,12 @@ from typing import Dict, Set, Tuple
 from werkzeug.exceptions import HTTPException
 
 from gitlabnotifier.constants import GITLAB_BASE_URL
-from gitlabnotifier.format import (
-    format_author_name, format_mr_title, format_project_name, format_slack_link, format_slack_text
-)
-from gitlabnotifier.gitlab_api import (
-    get_job_trace, get_mr, get_mr_discussion, get_mr_participants, get_user, get_user_by_username
-)
+from gitlabnotifier.format import (format_author_name, format_mr_title,
+                                   format_project_name, format_slack_link,
+                                   format_slack_text)
+from gitlabnotifier.gitlab_api import (get_job_trace, get_mr,
+                                       get_mr_discussion, get_mr_participants,
+                                       get_user, get_user_by_username)
 
 
 def status_requires_notification(event):
