@@ -48,3 +48,17 @@ export GITLAB_TOKEN="your-gitlab-token"
 export SLACK_API_TOKEN="your-slack-api-token"
 HOST=127.0.0.1 PORT=5000 make build-docker run-docker
 ```
+
+Contributors
+============
+
+At first, this project has been implemented within [Heuritech](https://www.heuritech.com/) for an internal usage 
+and then open sourced to GitHub.
+The original git history hasn't been copied during this migration.
+Thus, the [initial commit](https://github.com/heuritech/gitlab-slack-notifier/commit/64d14d1f68102f05bfd1879b328be003b341451c)
+is a copy of Heuritech's internal version, without the code specific to our company.
+
+Contributors of the original repository are:
+- [Didier Marin](https://github.com/didmar)
+- [Henri Hannetel](https://github.com/HenriTEL)
+- [Antoine Hoorelbeke](https://github.com/anth2o)
